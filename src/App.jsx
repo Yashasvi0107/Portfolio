@@ -7,7 +7,6 @@ import Experience from './pages/Experience/Experience'
 import Projects from './pages/Projects/Projects'
 import Contact from './pages/Contact/Contact'
 import Techstack from './pages/Techstack/Techstack'
-import CPstats from './pages/CPstats/CPstats'
 import { Analytics } from '@vercel/analytics/react';
 import "./App.css"
 
@@ -90,7 +89,6 @@ const App = () => {
       <Homepage />
       <About />
       <Education />
-      <CPstats />
       {/* <Techstack /> */}
       <Experience />
       <Projects />
