@@ -31,8 +31,8 @@ I'm Yashasvi Kumar, a CFD Engineer with domain expertise in Heat Transfer and Co
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
+git clone https://github.com/Yashasvi0107/Portfolio.git
+cd Portfolio
 ```
 
 2. Install dependencies
