@@ -108,7 +108,7 @@ const Header = () => {
             <div
                 className="resume"
                 onClick={() =>
-                    openWeb("https://drive.google.com/file/d/1SqRi-HcIXUpNoueHkllEJCez5ot6eyAm/view?usp=sharing", true)
+                    openWeb("/Yashasvi_Kumar_Resume.pdf", true)
                 }
             >
                 <FontAwesomeIcon className="fa-icon" icon={faFileInvoice} />
