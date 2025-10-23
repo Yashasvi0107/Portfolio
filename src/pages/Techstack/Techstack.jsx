@@ -3,19 +3,19 @@ import "./Techstack.css";
 
 const Techstack = () => {
     const dev = [
+        "python",
+        "c",
+        "java",
+        "javascript",
         "html",
         "css",
-        "javascript",
-        "mui",
         "react",
         "node-js",
         "figma",
-        "python",
-        "java",
-        "c",
+        "git",
+        "github",
         "chartjs",
         "mongodb",
-        "expressjs",
     ];
     return (
         <div className="content">
@@ -25,8 +25,9 @@ const Techstack = () => {
             </div>
             <div className="tech-content hiderx">
                 <p>
-                    I am more of a learn-by-doing person, and use my tech skills for achieving best results. Always
-                    eager to learn more!
+                    I specialize in computational fluid dynamics and thermal engineering, using advanced simulation tools 
+                    and programming languages to solve complex engineering problems. Always eager to explore new 
+                    technologies and methodologies!
                 </p>
                 <div className="info-wrapper">
                     <Techinfo techList={dev} />

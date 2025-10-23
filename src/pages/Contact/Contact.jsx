@@ -16,12 +16,12 @@ const Contact = () => {
                 <div className="wideline right-to-left"></div>
             </div>
             <div className="contact-body">
-                Did I sound interesting so far?
+                Interested in CFD and thermal engineering?
                 <br />
-                Whether you're curious about my work or looking to collaborate on something exciting, I'm always open to new opportunities.
+                Whether you're looking to collaborate on engineering projects, discuss fluid dynamics, or explore opportunities in heat transfer and combustion, I'm always open to new connections.
                 <br />
                 <br />
-                Let's connect and create something impactful together!
+                Let's connect and engineer innovative solutions together!
 
             </div>
 
@@ -32,7 +32,7 @@ const Contact = () => {
                         icon={faLinkedin}
                         size="2x"
                         color="#ffad33"
-                        onClick={() => openWeb("https://www.linkedin.com/in/nishank-kumar-a234002a4/")}
+                        onClick={() => openWeb("https://www.linkedin.com/in/yashasvi-kumar-7b2a78280")}
                     />
                 </div>
 
@@ -42,7 +42,7 @@ const Contact = () => {
                         icon={faEnvelope}
                         size="2x"
                         color="#ffad33"
-                        onClick={() => openWeb("mailto:nishank232006@gmail.com")}
+                        onClick={() => openWeb("mailto:yashasvi_23upe020@ug.nita.ac.in")}
                     />
                 </div>
 
@@ -52,11 +52,11 @@ const Contact = () => {
                         icon={faGithub}
                         size="2x"
                         color="#ffad33"
-                        onClick={() => openWeb("https://github.com/nishankkumar23")}
+                        onClick={() => openWeb("mailto:yashasvi_23upe020@ug.nita.ac.in")}
                     />
                 </div>
             </div>
-            <p className="signature">Made with {<FontAwesomeIcon icon={faHeart} color="#ffad33" />} by <i>Nishank Kumar</i>.</p>
+            <p className="signature">Made with {<FontAwesomeIcon icon={faHeart} color="#ffad33" />} by <i>Yashasvi Kumar</i>.</p>
         </div>
     );
 };

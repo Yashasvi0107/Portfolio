@@ -1,10 +1,11 @@
 {
-  "name": "portfolio",
+  "name": "yashasvi-kumar-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "author": "Nishank Kumar <nishank232006@gmail.com>",
-  "description": "Portfolio website of Nishank Kumar",
+  "author": "Yashasvi Kumar <yashasvi_23upe020@ug.nita.ac.in>",
+  "description": "Portfolio website of Yashasvi Kumar - CFD Engineer",
+  "homepage": "https://yashasvi-kumar-portfolio.vercel.app",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",

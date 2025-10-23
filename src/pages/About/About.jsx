@@ -12,24 +12,26 @@ const About = () => {
             </div>
             <div className="typography hiderx">
                 <div>
-                    <p>Welcome to my corner of the Internet!</p>
+                    <p>Welcome to my engineering portfolio!</p>
                     <br />
-                    I'm Nishank Kumar, a passionate Computer Science student at Indian Institute of Information Technology, Agartala (2023-2027).
-                    My journey through academia has been an exhilarating exploration of various fields, but my heart
-                    lies at the intersection of web development, design and competitive programming.
-                    <br />
-                    <br />
-                    With a strong foundation in the MERN stack, I thrive on building dynamic web apps that blend
-                    functionality with aesthetics. For design I consider Figma as my digital canvas, crafting many
-                    elegant website UIs. Apart from development, I love to take part in CP contests on Codeforces.
+                    I'm Yashasvi Kumar, a CFD Engineer with domain expertise in Heat Transfer and Combustion. 
+                    Currently pursuing B.Tech in Production Engineering at National Institute of Technology, Agartala (2023-Present).
+                    My work focuses on understanding and simulating complex fluid–thermal phenomena to develop 
+                    efficient and innovative engineering solutions.
                     <br />
                     <br />
-                    I'm an active member of the Coding Club, participate in college technical fests & hackathons, 
-                    and I'm also a state-level Taekwondo Gold Medalist. I completed my schooling from Ketan Convent School, 
-                    Aligarh with 94% in X and 78% in XII.
+                    I specialize in applying numerical methods, high-fidelity simulations, and physical insight 
+                    to analyze problems involving turbulent flows, multiphase interactions, and reactive systems. 
+                    Driven by curiosity and a passion for fluid physics, I combine computational analysis, 
+                    theoretical modeling, and experimental validation to bridge the gap between simulation and real-world performance.
                     <br />
                     <br />
-                    Scroll down to learn more about me!
+                    My current interests include combustion dynamics, thermal management, propulsion systems, 
+                    and energy-efficient designs. I'm passionate about using computational fluid dynamics to 
+                    solve real-world engineering challenges and contribute to sustainable technology development.
+                    <br />
+                    <br />
+                    Scroll down to explore my work and achievements!
                 </div>
                 <img src={AboutStamp} style= {{
                     padding: "1rem",

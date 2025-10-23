@@ -12,7 +12,7 @@ const Homepage = () => {
         });
     };
     const openWeb = () => {
-        window.open("https://github.com/nishankkumar23", "_blank");
+        window.open("https://www.linkedin.com/in/yashasvi-kumar-7b2a78280", "_blank");
     };
     return (
         <div className="page-wrap">
@@ -29,14 +29,14 @@ const Homepage = () => {
                     <div className="salutation">Hi, I'm</div>
                     <div className="wideline right-to-left"></div>
                 </div>
-                <div className="name">Nishank</div>
+                <div className="name">Yashasvi</div>
                 <div className="hobby">
                     I am a
                     <Dynamic />
                 </div>
                 <div className="about">
-                    Crafting elegant digital realms by day,
-                    <br /> grinding algorithms by night
+                    Simulating complex fluid-thermal phenomena,
+                    <br /> engineering innovative solutions
                 </div>
                 {/* <div className="btn-group">
                     <div
@@ -71,7 +71,7 @@ const Homepage = () => {
 const Dynamic = () => {
     const [holder, setHolder] = useState(0);
     const [index, setIndex] = useState(0);
-    let values = ["Web Developer", "CP Enthusiast", "Taekwondo Gold Medalist", "CS Student"];
+    let values = ["CFD Engineer", "Heat Transfer Specialist", "Combustion Expert", "Production Engineer"];
     const [typedText, setTypedText] = useState("");
 
     useEffect(() => {

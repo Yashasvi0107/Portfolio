@@ -6,11 +6,25 @@ import ProjectBanner from "./ProjectBanner/ProjectBanner";
 
 const ProjectData = [
     {
-        name: "CoinPROBE",
-        byline: "React cryptocurrency tracking app, to track key stats about top 100 Cryptocoins. Used Coingecko API for data.",
-        github: "https://github.com/nishankkumar23/CoinProbo_Cryptocurrency_tracker",
-        link: "https://coin-probo-cryptocurrency-tracker.vercel.app/",
-        tags: ["React JS", "Chart JS", "axios"],
+        name: "CFD Thermal Analysis",
+        byline: "Computational Fluid Dynamics simulation project analyzing heat transfer in combustion chambers using ANSYS Fluent and OpenFOAM.",
+        github: "mailto:yashasvi_23upe020@ug.nita.ac.in",
+        link: "mailto:yashasvi_23upe020@ug.nita.ac.in",
+        tags: ["ANSYS Fluent", "OpenFOAM", "Python", "CFD"],
+    },
+    {
+        name: "Combustion Dynamics Study",
+        byline: "Research project on turbulent combustion modeling and flame propagation analysis in gas turbine engines.",
+        github: "mailto:yashasvi_23upe020@ug.nita.ac.in",
+        link: "mailto:yashasvi_23upe020@ug.nita.ac.in",
+        tags: ["Combustion", "Turbulence", "MATLAB", "Simulation"],
+    },
+    {
+        name: "Heat Transfer Optimization",
+        byline: "Thermal management system design and optimization for electronic cooling applications using CFD simulations.",
+        github: "mailto:yashasvi_23upe020@ug.nita.ac.in",
+        link: "mailto:yashasvi_23upe020@ug.nita.ac.in",
+        tags: ["Heat Transfer", "Thermal Management", "CFD", "Design"],
     },
 ];
 

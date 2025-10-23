@@ -19,22 +19,25 @@ const Experience = () => {
             <div className="exp-data">
                 <Educard
                     data={{
-                        degree: "Runner-up, SIH IIITA Hackathon 2024",
-                        branch: "Collaborated with a team to design and implement innovative solutions",
-                        duration: "2024",
+                        degree: "CFD Research Projects",
+                        branch: "Computational Fluid Dynamics & Heat Transfer Research",
+                        duration: "2023 - Present",
                         bullets: [
-                            "Developed field validation API in Java Spring with Swagger UI & Bruno testing, enabling real-time validation.",
-                            "Created SQL tables in Aurora-MySQL & H2, added CRUD APIs, and built editable frontend grid synced to APIs.",
+                            "Conducted advanced CFD simulations using ANSYS Fluent and OpenFOAM for combustion analysis.",
+                            "Developed numerical models for turbulent flow and heat transfer in complex geometries.",
+                            "Analyzed thermal management systems for electronic cooling applications.",
                         ],
                     }}
                 />
                 <Educard
                     data={{
-                        degree: "Viyogi Enterprises – Remote Sensing Division",
-                        branch: "Software Engineer Intern · Udyog Vihar, Gurgaon",
-                        duration: "Jun 2025 – Jul 2025",
+                        degree: "Production Engineering Studies",
+                        branch: "B.Tech Production Engineering · NIT Agartala",
+                        duration: "Aug 2023 - Present",
                         bullets: [
-                            "Worked as Software Engineer Intern in the Remote Sensing Division.",
+                            "Specialized coursework in Fluid Mechanics, Heat Transfer, and Thermodynamics.",
+                            "Hands-on experience with CAD software and manufacturing processes.",
+                            "Current CGPA: 7.93/10.00 with focus on thermal engineering applications.",
                         ],
                     }}
                 />

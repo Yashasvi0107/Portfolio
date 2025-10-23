@@ -2,25 +2,38 @@ import { React, useRef, useEffect } from "react";
 import "./Education.css";
 
 const School = {
-    degree: "High School / Secondary Certificate Program",
-    institution: "Ketan Convent School, Aligarh",
-    branch: "Science",
-    duration: "Mar 2021 - Mar 2023",
+    degree: "Higher Secondary Education / Grade 10",
+    institution: "St. Michael's School, Ranchi",
+    branch: "CBSE",
+    duration: "July 2020",
     bullets: [
-        "Participated in many Sit-and-Drawing Competitions.",
-        "Ranked #1 in my school, in both 10th  CBSE Board Examinations.",
+        "Achieved 96.4% in CBSE Grade 10 examinations.",
+        "Strong foundation in Mathematics, Physics, and Chemistry.",
+        "Active participation in school activities and competitions.",
+    ],
+};
+
+const SeniorSecondary = {
+    degree: "Senior Secondary Education",
+    institution: "Jawahar Vidya Mandir, Shyamali, Ranchi",
+    branch: "CBSE (Mathematics/Physics/Chemistry)",
+    duration: "Mar 2022",
+    bullets: [
+        "Achieved 80.6% in CBSE Senior Secondary examinations.",
+        "Specialized in Science stream with focus on core subjects.",
+        "Developed strong analytical and problem-solving skills.",
     ],
 };
 const College = {
-    degree: "Bachelor's degree",
-    institution: "Indian Institute of Information Technology, Agartala",
-    branch: "Computer Science",
-    duration: "2023 - 2027",
+    degree: "B.Tech - Production Engineering",
+    institution: "National Institute of Technology, Agartala",
+    branch: "Production Engineering",
+    duration: "Aug 2023 - Present",
     bullets: [
-        "Participated in many drawing, coding and design contests.",
-        "Actively led the building of various college websites related to clubs, department and events.",
-        "Collaborated in building website for CP-DSA bootcamp held by our college.",
-        "Mentoring batchmates in the web development bootcamp held by our college.",
+        "Current CGPA: 7.93/10.00",
+        "Specializing in Computational Fluid Dynamics (CFD) and Heat Transfer",
+        "Focus on combustion dynamics and thermal management systems",
+        "Active in engineering projects and research activities",
     ],
 };
 
@@ -33,6 +46,7 @@ const Education = () => {
             </div>
             <div className="all-cards">
                 <Educard data={School} />
+                <Educard data={SeniorSecondary} />
                 <Educard data={College} />
             </div>
         </div>
